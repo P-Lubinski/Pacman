@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PacManGame">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <Members>
+      <Field Name="e" Hidden="true" />
+      <Field Name="enemy" Hidden="true" />
+      <Field Name="enemy_direction" Hidden="true" />
+      <Field Name="enemy_speed" Hidden="true" />
+      <Field Name="engine" Hidden="true" />
+      <Field Name="engine2" Hidden="true" />
+      <Field Name="engine3" Hidden="true" />
+      <Field Name="hardmode" Hidden="true" />
+      <Field Name="lives" Hidden="true" />
+      <Field Name="pacman" Hidden="true" />
+      <Field Name="pacman_speed" Hidden="true" />
+      <Field Name="prev_enemy_direction" Hidden="true" />
+      <Field Name="s" Hidden="true" />
+      <Field Name="total_enemies" Hidden="true" />
+      <Field Name="u" Hidden="true" />
+      <Field Name="w" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAwCAWAEABoAAAAAICAAgCRIAIBIGguqGIKQQAAI=</HashCode>
+      <FileName>C:\LLP\PacMan\Source\Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irrklang::ISoundEngine" Collapsed="true">
+    <Position X="2.75" Y="5.25" Width="1.5" />
+    <Members>
+      <Method Name="addFileFactory" Hidden="true" />
+      <Method Name="addSoundSourceAlias" Hidden="true" />
+      <Method Name="addSoundSourceFromFile" Hidden="true" />
+      <Method Name="addSoundSourceFromMemory" Hidden="true" />
+      <Method Name="addSoundSourceFromPCMData" Hidden="true" />
+      <Method Name="getDefault3DSoundMaxDistance" Hidden="true" />
+      <Method Name="getDefault3DSoundMinDistance" Hidden="true" />
+      <Method Name="getDriverName" Hidden="true" />
+      <Method Name="getInternalAudioInterface" Hidden="true" />
+      <Method Name="getSoundSource" Hidden="true" />
+      <Method Name="getSoundSourceCount" Hidden="true" />
+      <Method Name="getSoundVolume" Hidden="true" />
+      <Method Name="isCurrentlyPlaying" Hidden="true" />
+      <Method Name="isMultiThreaded" Hidden="true" />
+      <Method Name="loadPlugins" Hidden="true" />
+      <Method Name="play2D" Hidden="true" />
+      <Method Name="play3D" Hidden="true" />
+      <Method Name="registerAudioStreamLoader" Hidden="true" />
+      <Method Name="removeAllSoundSources" Hidden="true" />
+      <Method Name="removeSoundSource" Hidden="true" />
+      <Method Name="setAllSoundsPaused" Hidden="true" />
+      <Method Name="setDefault3DSoundMaxDistance" Hidden="true" />
+      <Method Name="setDefault3DSoundMinDistance" Hidden="true" />
+      <Method Name="setDopplerEffectParameters" Hidden="true" />
+      <Method Name="setListenerPosition" Hidden="true" />
+      <Method Name="setMixedDataOutputReceiver" Hidden="true" />
+      <Method Name="setRolloffFactor" Hidden="true" />
+      <Method Name="setSoundVolume" Hidden="true" />
+      <Method Name="stopAllSounds" Hidden="true" />
+      <Method Name="update" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAIBACBQJggAAwCAAAQJAAAACAKAkACAAAAAIFAkDAA=</HashCode>
+      <FileName>c:\LLP\PacMan\Libs\irrKlang\include\ik_ISoundEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="GameFont">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAgAAEAAAAAAAAAAAQAgA=</HashCode>
+      <FileName>C:\LLP\PacMan\Source\GameFont.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="GameAction">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAIACAAAAAAQAACAAAAAAAABAAAAAABAAAAAA=</HashCode>
+      <FileName>C:\LLP\PacMan\Source\Actions.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
